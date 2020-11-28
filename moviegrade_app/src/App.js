@@ -1,12 +1,15 @@
-import React from 'react';
+import React from "react";
 
+class App extends React.Component {
+  state = {
+    isLoading: true,
+    movies: [],
+  };
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+  render() {
+    const { isLoading } = this.state;
+    return <div />;
+  }
 }
 
 export default App;
